@@ -4,7 +4,8 @@
 // URL de tu proyecto Supabase. Ajustado automáticamente para el proyecto creado
 // Nota: mantén la clave anónima como placeholder hasta que actualices con tu propia anon key
 const SUPABASE_URL = "https://blmtsgmbalqkpzdmgdrx.supabase.co";
-const SUPABASE_ANON_KEY = "TU_ANON_KEY";
+// Clave anónima de Supabase (segura para el frontend)
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJsbXRzZ21iYWxxa3B6ZG1nZHJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwMzcxNjAsImV4cCI6MjA3MDYxMzE2MH0.QOZ3U6FSEJFrQxznGn1AQ_M_9PHowSWiIY5ifgzXWDs";
 
 // Inicializar el cliente de Supabase
 const supabase = supabasejs.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
