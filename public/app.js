@@ -1,7 +1,9 @@
 // app.js
 
 // Reemplazar estos valores por tu URL y clave anónima de Supabase
-const SUPABASE_URL = "https://TU-PROJECT.supabase.co";
+// URL de tu proyecto Supabase. Ajustado automáticamente para el proyecto creado
+// Nota: mantén la clave anónima como placeholder hasta que actualices con tu propia anon key
+const SUPABASE_URL = "https://blmtsgmbalqkpzdmgdrx.supabase.co";
 const SUPABASE_ANON_KEY = "TU_ANON_KEY";
 
 // Inicializar el cliente de Supabase
