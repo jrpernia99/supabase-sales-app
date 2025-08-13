@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "strategiesllc-6f094"
+  },
+  "targets": {
+    "strategiesllc-6f094": {
+      "hosting": {
+        "supabase-sales-app": [
+          "default"
+        ]
+      }
+    }
+  }
+}
